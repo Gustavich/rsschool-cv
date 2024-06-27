@@ -36,6 +36,8 @@ I'm 23 years old. In my age I have no education exept 11 classes of school and w
 * Photoshop
 
 
+
+
 ===========
 
 
