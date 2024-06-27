@@ -26,7 +26,9 @@ I'm 23 years old. In my age I have no education exept 11 classes of school and w
 * HTML
 * CSS
 * Photoshop
+
 ----------------------------------------------------
+
 ### Code examples:
 ```
 function multiply(a, b){
