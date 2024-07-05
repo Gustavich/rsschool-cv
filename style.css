@@ -1,0 +1,150 @@
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    font-family: "Frank Ruhl Libre", serif;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2A2267;
+    margin: 0;
+    color: slategray;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5b5772;
+    margin: 0;
+}
+main {
+    display: flex;
+    background-color: #5b5772;
+    margin: 0;
+    padding: 15px;
+}
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+}
+nav>ul>li {
+    padding: 15px;
+    background-color: #5b5772;
+    cursor: pointer;
+    font-size: 35px;
+    border-bottom: 5px solid #ffffff;
+}
+nav>ul>li:hover {
+    background-color: #B949DB;
+    border-color: #B949DB;
+}
+
+.photo-container {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    order: -1;
+}
+.photo-container>img {
+    border: 10px;
+    border-style: solid;
+    border-color: #B949DB;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.left-side {
+    width: 30%;
+    order: -1;
+    padding-top: 15px;
+    border-right: 10px solid;
+    /*border-top: 10px solid;*/
+    border-color: #B949DB;
+}
+.right-side {
+    width: 70%;
+    padding-top: 15px;
+    padding-left: 15px;
+   /* border-top: 10px solid #7500F5;*/
+}
+h2 {
+    margin-top: 5px;
+    padding-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-left: 5px #B949DB solid;
+    padding-left: 10px;
+}
+.boigraphy {
+    padding: 10px;
+    background-color: #c4baff;
+    border-radius: 20px;
+    color:#300067 ;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.profession {
+    padding-top: 0;
+    margin-top: 0;
+    font-style: oblique;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.project {
+    text-decoration: underline;
+}
+.cod {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color:#c4baff ;
+    border-radius: 20px;
+    color: #300067;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+#contacts {
+    margin-bottom: 15px;
+}
+#skills {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#languages {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.education {
+    margin-bottom: 30x;
+}
+.edu {
+    margin-top: 30px;
+}
