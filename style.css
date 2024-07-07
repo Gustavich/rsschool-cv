@@ -6,9 +6,9 @@ ul {
 body {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
+    max-width: 1300px;
     margin: auto;
-    font-size: 25px;
+    font-size: 23px;
     font-family: "Frank Ruhl Libre", serif;
     background-color: #2e2e2e;
     color: rgb(255, 255, 255);
@@ -32,6 +32,7 @@ main {
     background-color: #5b5772;
     margin: 0;
     padding: 15px;
+    padding-top: 7px;
 }
 .nav-block {
     display: flex;
@@ -52,9 +53,8 @@ nav>ul>li:hover {
 }
 
 .photo-container {
-    padding-left: 50px;
+    padding-left: 35px;
     padding-top: 15px;
-    padding-bottom: 10px;
     order: -1;
 }
 .photo-container>img {
@@ -72,6 +72,7 @@ h1 {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+    /*font-size: 45px;*/
 }
 .left-side {
     width: 30%;
@@ -128,8 +129,10 @@ h2 {
     display: flex;
     flex-direction: column;
     order: -1;
-    margin-left: 30px;
-    margin-top: 100px;
+    margin-left: 0px;
+    margin-top: 30px;
+    line-height: 50px;
+    align-items: first baseline;
 }
 #contacts {
     margin-bottom: 15px;
